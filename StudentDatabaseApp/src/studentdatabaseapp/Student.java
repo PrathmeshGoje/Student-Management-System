@@ -70,7 +70,7 @@ public class Student {
 		System.out.println("Courses Enrolled: "); 
 		if (Courses != null) {
 			for(int n = 0; n < numofCourses; n++) {
-				System.out.println(Courses[n]);
+				System.out.println((n+1) + "." + Courses[n]);
 			}
 		} else {
 			System.out.println("No courses enrolled yet.");
