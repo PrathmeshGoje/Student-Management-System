@@ -41,7 +41,7 @@ public class Student {
 			Scanner sc = new Scanner(System.in);
 			
 			numofCourses = sc.nextInt();
-			String Courses[] = new String[numofCourses];
+			Courses = new String[numofCourses];
 			
 			for(int n = 0; n < numofCourses; n++) {
 				System.out.printf("Enter Course " + (n+1) + ": ");
