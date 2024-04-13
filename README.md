@@ -1,3 +1,3 @@
 # Student Management System
 
-##A student management system writen in java 
+## A student management system writen in java 
